@@ -54,7 +54,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/DED-LEGEND/LUCKY-PLUGIN",
+    "https://github.com/DED-LEGEND/DxPLUGIN",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
@@ -76,7 +76,7 @@ LOG_GROUP_ID = (getenv("LOG_GROUP_ID", "-1001764614031"))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "7605675869").split())
+    map(int, getenv("OWNER_ID", "6458155947").split())
 )  # Input type must be interger
 
 
@@ -97,7 +97,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/DED-LEGEND/LUCKY-MUSIC",
+    "https://github.com/DED-LEGEND/DxPLUGIN",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
